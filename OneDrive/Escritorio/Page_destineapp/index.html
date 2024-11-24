@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DestinApp - Tu transporte confiable</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .carousel-inner img {
+            max-height: 400px;
+            object-fit: contain;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero d-flex align-items-center">
+        <div class="container text-center text-white">
+            <h1 class="display-4">DestinApp</h1>
+            <p class="lead">Tu solución de transporte confiable y económico</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <section id="descripcion" class="text-center mb-5">
+            <h2 class="section-title">¿Qué es DestinApp?</h2>
+            <p class="section-text">
+                DestinApp conecta pasajeros con conductores locales para ofrecer viajes seguros, económicos y accesibles, 
+                especialmente en horarios y zonas donde el transporte público es limitado. ¡Muévete sin preocupaciones!
+            </p>
+        </section>
+        <section id="galeria" class="mb-5">
+            <h2 class="section-title text-center">Capturas de Pantalla</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagenes/page1.jpeg" class="d-block w-100" alt="Captura 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/page2.jpeg" class="d-block w-100" alt="Captura 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/page3.jpeg" class="d-block w-100" alt="Captura 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/page4.jpeg" class="d-block w-100" alt="Captura 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/page5.jpeg" class="d-block w-100" alt="Captura 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/page6.jpeg" class="d-block w-100" alt="Captura 6">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/page7.jpeg" class="d-block w-100" alt="Captura 7">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/page8.jpeg" class="d-block w-100" alt="Captura 8">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+        <section id="ficha-tecnica" class="mb-5">
+            <h2 class="section-title text-center">Ficha Técnica</h2>
+            <ul class="list-group list-group-flush shadow">
+                <li class="list-group-item"><i class="fa-solid fa-code-branch me-2"></i><strong>Versión:</strong> 1.0</li>
+                <li class="list-group-item"><i class="fa-solid fa-file-archive me-2"></i><strong>Tamaño:</strong> 5 MB</li>
+                <li class="list-group-item"><i class="fa-solid fa-android me-2"></i><strong>Compatibilidad:</strong> Android 5.0 y superior</li>
+                <li class="list-group-item"><i class="fa-solid fa-calendar me-2"></i><strong>Última actualización:</strong> Noviembre 2024</li>
+                <li class="list-group-item"><i class="fa-solid fa-car-side me-2"></i><strong>Categoría:</strong> Transporte y movilidad</li>
+            </ul>
+        </section>
+        <section id="descarga" class="text-center mb-5">
+            <h2 class="section-title">¡Descarga DestinApp Ahora!</h2>
+            <p class="section-text">Haz clic en el botón para obtener nuestra app y disfruta de un transporte confiable.</p>
+            <a href="https://raw.githubusercontent.com/Franciscaam/apk/main/destinapp.apk" class="btn btn-primary btn-lg android-only" download="DestinApp.apk">
+                <i class="fa-solid fa-download me-2"></i>Descargar APK
+            </a>
+        </section>
+    </main>
+    <footer class="footer text-center text-white py-3 bg-dark">
+        <p>&copy; 2024 DestinApp. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
