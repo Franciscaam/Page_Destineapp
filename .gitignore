@@ -1,0 +1,14 @@
+
+# Ignorar archivos y carpetas innecesarios
+/../../../
+*.log
+*.bin
+*.rar
+*.iso
+*.txt
+*.pdf
+/OneDrive/
+/Desktop/
+*.ahk
+/Downloads/
+
